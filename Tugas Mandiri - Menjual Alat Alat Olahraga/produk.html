@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Semua Produk Alat Olahraga</title>
+    <!-- css -->
+        <link rel="stylesheet" href="Style.css">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- icon -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+
+
+<!------- Navigatoin Bar --------->
+        <div class="navbar">
+            <div class="logo">
+
+
+
+<!------- Profil/Logo --------->
+       <div class="navbar">
+            <nav>
+                <ul id="menuitems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produk.html">Product</a></li>
+                    <li><a href="#brand">Brands</a></li>
+                    <li><a href="account.html">Account</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <i class="fas fa-shopping-basket"></i>
+                </ul>
+            </nav>
+            <img src="image/menu.png" class="menu-icon" width="30px" height="30px" onclick="menutoggle()">
+        </div>
+   
+<!---------- Produk ---------->
+
+    <div class="small-container">
+
+<!----------- Toggle Produk ----------->
+
+        <div class="row row-2">
+            <h2>Product</h2>
+            <select>
+                <option>Popularitas</option>
+                <option>Peringkat</option>
+                <option>Penjualan</option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <a href="image/sepatuadidas.jpeg"><img src="image/sepatuadidas.jpeg" width="200px"></a>
+                <h4>Sepatu Lari Adidas</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>Rp.65.000,-</p>
+            </div>
+            <div class="col-4">
+                <a href="image/jersytimnas.jpg"><img src="image/jersytimnas.jpg" width="200px"></a>
+                <h4>Jersy Timnas JBL-12</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>Rp.150.000,-</p>
+            </div>
+            <div class="col-4">
+                <a href="image/shuttlecockyonex.jpg"><img src="image/shuttlecockyonex.jpg" width="200px"></a>
+                <h4>Shuttlecock Yonex isi 12pcs</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>Rp.60.000,-</p>
+            </div>
+            <div class="col-4">
+                <a href="image/Bolavoly.png"><img src="image/Bolavoly.png" width="200px"></a>
+                <h4>Bola voly</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>Rp.60.000,-</p>
+            </div>
+            <div class="col-4">
+                <a href="image/bolaadidas.jpg"><img src="image/bolaadidas.jpg" width="200px"></a>
+                <h4>Adidas Bola Sepak</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Rp.135.000,-</p>
+            </div>
+            <div class="col-4">
+                <a href="image/tasadidas.png"><img src="image/tasadidas.png" width="200px"></a>
+                <h4>Tas Adidas Premium</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Rp.300.000,-</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!------ pilih angka ------>
+    <div class="page-btn">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>&#8594;</span>
+    </div>
+
+
+    <!--------- merek ---------->
+    <div class="brands" id="brand">
+        <h2 class="title">Brands</h2>
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="image/gojek.png" width="130px">
+                </div>
+                <div class="col-5">
+                    <img src="image/logoadidas.png" width="150px">
+                </div>
+                <div class="col-5">
+                    <img src="image/dana.png" width="100px">
+                </div>
+                <div class="col-5">
+                    <img src="image/yonex.png" width="180px">
+                </div>
+                <div class="col-5">
+                    <img src="image/puma.png" width="200px">
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!---------- js for toggle menu ----------->
+        <script>
+            var menuItems = document.getElementById("menuitems");
+
+            menuitems.style.maxHeight = "0px";
+            function menutoggle(){
+                if(menuitems.style.maxHeight == "0px")
+                    {
+                        menuitems.style.maxHeight = "200px"; 
+                    }
+                else
+                    {
+                        menuitems.style.maxHeight = "0px";
+                    }
+            }
+        </script>
+
+
+
+
+
+</body>
+</html>
